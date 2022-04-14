@@ -1,0 +1,41 @@
+server:
+  port: 8089
+#  servlet:
+#    context-path: /myweb
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+  thymeleaf:
+    cache: false
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6579
+    password:
+    timeout: 5000
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp/
+#      suffix: .jsp
+mybatis:
+  mapperLocations: classpath:mapping/*.xml
+logging:
+  level:
+    root: info
+    com.example.enjoy.springbootdemo.controller: debug
+  file: d:/errorinfo.log
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: /*
+info:
+  blog-url: http://www.google.com
+  author: justin
+  version: @project.version@
+
+

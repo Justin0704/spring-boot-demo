@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>享学课堂</title>
+    <title>jsp page</title>
 </head>
 <body>
 <h1>这是个jsp页面!!</h1>
